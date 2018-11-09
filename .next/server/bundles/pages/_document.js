@@ -84,7 +84,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_style_style_styl__ = __webpack_require__("./src/style/style.styl");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_style_style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_style_style_styl__);
-var _jsxFileName = "C:\\Users\\Oles\\PhpstormProjects\\zvuk.kiev.ua\\pages\\_document.js";
+var _jsxFileName = "/Users/oleskryzhanivskyi/PhpstormProjects/zvuk.kiev.ua/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
