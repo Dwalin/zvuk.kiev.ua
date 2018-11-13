@@ -11,6 +11,45 @@ body {
   opacity: 1 !important;
   background-position: center;
 }
+.zv-butt {
+  display: inline-block;
+  cursor: pointer;
+  background: #c8c8c8;
+  padding: 40px 100px;
+}
+.zv-butt input {
+  position: absolute;
+  left: -100vw;
+}
+.zv-butt svg {
+  max-width: 120px;
+  height: 200px;
+}
+.zv-butt svg * {
+  transition: all 0.15s ease-in-out;
+}
+.zv-butt:hover #cap,
+.zv-butt:hover .cls-5 * {
+  transform: translateY(4px);
+}
+.zv-butt:hover #shadow {
+  opacity: 0.8;
+}
+.zv-butt input:checked+svg:hover #cap,
+.zv-butt input:checked+svg:hover .cls-5 * {
+  transform: translateX(34%) translateY(4px);
+}
+.zv-butt input:checked+svg:hover #shadow {
+  opacity: 0.8;
+}
+.zv-butt input:checked+svg #sliderBG {
+  transform: translateX(92%);
+}
+.zv-butt input:checked+svg #side,
+.zv-butt input:checked+svg #cap,
+.zv-butt input:checked+svg #shadow {
+  transform: translateX(34%);
+}
 .zv-copyright {
   padding: 20px 42px;
 }
