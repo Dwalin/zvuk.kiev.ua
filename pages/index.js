@@ -92,19 +92,7 @@ export default class extends React.Component {
 
         <div className="zv-box">
 
-
-          // TODO
-
-          // Линия/комбо — в скобках
-          // Усилитель — комбоусилитель
-          // Сначала всегда линия
-          // Стоимость прилипшая всегда сверху
-          // Подсказки — взять из таблицы
-
           <div className="zv-box _inner">
-            <h2>
-              Стоимость
-            </h2>
             <div className="zv-line">
               <div className="zv-calc">
                 <label>Тайминг</label>
@@ -129,31 +117,32 @@ export default class extends React.Component {
             </div>
 
             <div className="zv-line">
-              <div className="zv-calc">
-                <label>Электроакустическая гитара — линия + микрофон</label>
+              <div data-tip="Запись в линию с последующей цифровой обработкой без применения комбоусилителя" className="zv-calc">
+                <label>Электроакустическая гитара (линия + микрофон)</label>
                 <input type="number" name={"guitarAc"} value={this.state.guitarAc} onChange={this.handleChange}/>
                 <span>Кол-во треков</span>
               </div>
-              <div className="zv-calc">
-                <label>Электрогитара — усилитель</label>
-                <input type="number" name={"guitar"} value={this.state.guitar} onChange={this.handleChange}/>
-                <span>Кол-во треков</span>
-              </div>
-              <div className="zv-calc">
-                <label>Электрогитара — линия</label>
+              <div data-tip="Запись в линию с последующей цифровой обработкой без применения комбоусилителя" className="zv-calc">
+                <label>Электрогитара (линия)</label>
                 <input type="number" name={"guitarLine"} value={this.state.guitarLine} onChange={this.handleChange}/>
                 <span>Кол-во треков</span>
               </div>
-              <div className="zv-calc">
-                <label>Бас-гитара — усилитель</label>
-                <input type="number" name={"base"} value={this.state.base} onChange={this.handleChange}/>
+              <div data-tip="Запись с приминением процесса реампинга" className="zv-calc">
+                <label>Электрогитара (комбоусилитель)</label>
+                <input type="number" name={"guitar"} value={this.state.guitar} onChange={this.handleChange}/>
                 <span>Кол-во треков</span>
               </div>
-              <div data-tip="Басисты не нужны." className="zv-calc">
-                <label>Бас-гитара — линия</label>
+              <div data-tip="Запись в линию с последующей цифровой обработкой без применения комбоусилителя" className="zv-calc">
+                <label>Бас-гитара (линия)</label>
                 <input type="number" name={"baseLine"} value={this.state.baseLine} onChange={this.handleChange}/>
                 <span>Кол-во треков</span>
               </div>
+              <div data-tip="Запись с приминением процесса реампинга" className="zv-calc">
+                <label>Бас-гитара (комбоусилитель)</label>
+                <input type="number" name={"base"} value={this.state.base} onChange={this.handleChange}/>
+                <span>Кол-во треков</span>
+              </div>
+
             </div>
 
             <div className="zv-line">
@@ -241,7 +230,7 @@ export default class extends React.Component {
               </div>
             </div>*/}
 
-            <h2>
+            {/*<h2>
               Стоимость
             </h2>
             <div className="zv-line">
@@ -250,7 +239,7 @@ export default class extends React.Component {
                 <div className="price">{this.state.price}<span>₴</span></div>
                 <span> </span>
               </div>
-            </div>
+            </div>*/}
           </div>
           <div className="zv-copyright">
             Студия ZVUK™ — и время не в счет.

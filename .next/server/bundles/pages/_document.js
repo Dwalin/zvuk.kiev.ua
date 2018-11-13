@@ -67,24 +67,35 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./pages/_document.js":
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_style_style_styl__ = __webpack_require__("./src/style/style.styl");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_style_style_styl__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_style_style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__src_style_style_styl__);
-var _jsxFileName = "/Users/oleskryzhanivskyi/PhpstormProjects/zvuk.kiev.ua/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -118,56 +129,13 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        }
-      }, "Zvuk.kiev.ua"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Zvuk.kiev.ua"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
-        content: "initial-scale=1.0, width=device-width",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        }
-      }, "@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        content: "initial-scale=1.0, width=device-width"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", null, "@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/_next/static/style.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        }
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      })));
+        href: "/_next/static/style.css"
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null)));
     }
   }]);
 
@@ -177,35 +145,16 @@ function (_Document) {
 
 
 /***/ }),
-
-/***/ "./src/style/style.styl":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 0:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/_document.js");
-
-
-/***/ }),
-
-/***/ "next/document":
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/document");
 
 /***/ }),
-
-/***/ "react":
+/* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=_document.js.map
+/******/ ]);

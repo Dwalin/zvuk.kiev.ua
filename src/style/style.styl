@@ -30,9 +30,10 @@ body {
     font-size: 20px;
     z-index: 100;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    margin-bottom: 40px !important;
 
     @media (min-width: 720px) {
-      display: none;
+      //display: none;
     }
 
 
@@ -137,8 +138,8 @@ body {
       @media (max-width: 720px) {
         flex-basis: 100%;
         min-width: 100%;
-        margin-bottom: 20px;
-        flex-direction: column;
+        margin-bottom: 10px;
+        //flex-direction: column;
         align-items: center;
 
         &>* {
@@ -146,7 +147,16 @@ body {
           margin-bottom: 10px;
           padding: 0;
           font-size: 120% !important;
-          text-align: center;
+          //text-align: center;
+
+          &:nth-child(2) {
+            max-width: 80px;
+          }
+
+
+          &:nth-child(3) {
+            display: none;
+          }
         }
       }
 
@@ -182,9 +192,10 @@ body {
 
 
           &+div {
-            width: 32px;
-            height: 20px;
-            border-radius: 10px;
+            width: 100%;  // Прямое требование заказчика, чтобы инпуты выглядели так
+            //min-width: 120px;
+            height: 40px;
+            border-radius: 20px;
             margin-right: 10px;
             position: relative;
             background-color: rgba(205, 205, 205, 1);
@@ -197,9 +208,9 @@ body {
               position: absolute;
               top: 2px;
               left: 2px;
-              border-radius: 10px;
-              width: 16px;
-              height: 16px;
+              border-radius: 20px;
+              width: 36px;
+              height: 36px;
               transition: all .15s ease-in-out;
               background-color: rgba(0, 0, 0, 1);
               border: 2px solid transparent;
@@ -212,8 +223,7 @@ body {
           }
 
           &:checked+div:before {
-            left: 14px;
-
+            left: calc(100% - 38px);
             background-color: rgba(240, 240, 240, 1);
             border: 2px solid rgba(0, 0, 0, 1);
           }

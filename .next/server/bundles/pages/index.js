@@ -67,29 +67,44 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./pages/index.js":
+module.exports = require("react");
+
+/***/ }),
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(6);
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _default; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("@babel/runtime/regenerator");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_tooltip__ = __webpack_require__("react-tooltip");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_tooltip__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_tooltip___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_tooltip__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_link__);
 
-var _jsxFileName = "/Users/oleskryzhanivskyi/PhpstormProjects/zvuk.kiev.ua/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -210,520 +225,136 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-layout",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        }
+        className: "zv-layout"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        }
+        className: "zv-logo"
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "price-sticky",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        }
-      }, "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C: "), this.state.price, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        }
-      }, "\u20B4")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-box",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93
-        }
-      }, "// TODO // \u041B\u0438\u043D\u0438\u044F/\u043A\u043E\u043C\u0431\u043E \u2014 \u0432 \u0441\u043A\u043E\u0431\u043A\u0430\u0445 // \u0423\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C \u2014 \u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C // \u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0432\u0441\u0435\u0433\u0434\u0430 \u043B\u0438\u043D\u0438\u044F // \u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u043F\u0440\u0438\u043B\u0438\u043F\u0448\u0430\u044F \u0432\u0441\u0435\u0433\u0434\u0430 \u0441\u0432\u0435\u0440\u0445\u0443 // \u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438 \u2014 \u0432\u0437\u044F\u0442\u044C \u0438\u0437 \u0442\u0430\u0431\u043B\u0438\u0446\u044B", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-box _inner",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        }
-      }, "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        }
+        className: "price-sticky"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C: "), this.state.price, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u20B4")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-box"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
-        }
-      }, "\u0422\u0430\u0439\u043C\u0438\u043D\u0433"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        className: "zv-box _inner"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-line"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0422\u0430\u0439\u043C\u0438\u043D\u0433"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "timing",
         value: this.state.timing,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        }
-      }, "\u0412 \u0441\u0435\u043A\u0443\u043D\u0434\u0430\u0445")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        }
-      }, "BPM"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u0412 \u0441\u0435\u043A\u0443\u043D\u0434\u0430\u0445")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "BPM"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "bpm",
         value: this.state.bpm,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        }
-      }, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120
-        }
-      }, "\u0412\u043E\u043A\u0430\u043B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0412\u043E\u043A\u0430\u043B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "vocal",
         value: this.state.vocal,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 122
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125
-        }
-      }, "\u0411\u0435\u043A-\u0432\u043E\u043A\u0430\u043B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0411\u0435\u043A-\u0432\u043E\u043A\u0430\u043B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "backVocal",
         value: this.state.backVocal,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131
-        }
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-line"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 132
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133
-        }
-      }, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0430\u043A\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0433\u0438\u0442\u0430\u0440\u0430 \u2014 \u043B\u0438\u043D\u0438\u044F + \u043C\u0438\u043A\u0440\u043E\u0444\u043E\u043D"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        "data-tip": "\u0417\u0430\u043F\u0438\u0441\u044C \u0432 \u043B\u0438\u043D\u0438\u044E \u0441 \u043F\u043E\u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u043E\u0439 \u0431\u0435\u0437 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044F",
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0430\u043A\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0433\u0438\u0442\u0430\u0440\u0430 (\u043B\u0438\u043D\u0438\u044F + \u043C\u0438\u043A\u0440\u043E\u0444\u043E\u043D)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "guitarAc",
         value: this.state.guitarAc,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 134
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 135
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        }
-      }, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0438\u0442\u0430\u0440\u0430 \u2014 \u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
-        type: "number",
-        name: "guitar",
-        value: this.state.guitar,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 139
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 142
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        }
-      }, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0438\u0442\u0430\u0440\u0430 \u2014 \u043B\u0438\u043D\u0438\u044F"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        "data-tip": "\u0417\u0430\u043F\u0438\u0441\u044C \u0432 \u043B\u0438\u043D\u0438\u044E \u0441 \u043F\u043E\u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u043E\u0439 \u0431\u0435\u0437 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044F",
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0438\u0442\u0430\u0440\u0430 (\u043B\u0438\u043D\u0438\u044F)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "guitarLine",
         value: this.state.guitarLine,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 144
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 147
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 148
-        }
-      }, "\u0411\u0430\u0441-\u0433\u0438\u0442\u0430\u0440\u0430 \u2014 \u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        "data-tip": "\u0417\u0430\u043F\u0438\u0441\u044C \u0441 \u043F\u0440\u0438\u043C\u0438\u043D\u0435\u043D\u0438\u0435\u043C \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430 \u0440\u0435\u0430\u043C\u043F\u0438\u043D\u0433\u0430",
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0438\u0442\u0430\u0440\u0430 (\u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
-        name: "base",
-        value: this.state.base,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 150
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        "data-tip": "\u0411\u0430\u0441\u0438\u0441\u0442\u044B \u043D\u0435 \u043D\u0443\u0436\u043D\u044B.",
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 152
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 153
-        }
-      }, "\u0411\u0430\u0441-\u0433\u0438\u0442\u0430\u0440\u0430 \u2014 \u043B\u0438\u043D\u0438\u044F"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        name: "guitar",
+        value: this.state.guitar,
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        "data-tip": "\u0417\u0430\u043F\u0438\u0441\u044C \u0432 \u043B\u0438\u043D\u0438\u044E \u0441 \u043F\u043E\u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u043E\u0439 \u0431\u0435\u0437 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044F",
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0411\u0430\u0441-\u0433\u0438\u0442\u0430\u0440\u0430 (\u043B\u0438\u043D\u0438\u044F)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "baseLine",
         value: this.state.baseLine,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 154
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 155
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        }
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        "data-tip": "\u0417\u0430\u043F\u0438\u0441\u044C \u0441 \u043F\u0440\u0438\u043C\u0438\u043D\u0435\u043D\u0438\u0435\u043C \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430 \u0440\u0435\u0430\u043C\u043F\u0438\u043D\u0433\u0430",
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0411\u0430\u0441-\u0433\u0438\u0442\u0430\u0440\u0430 (\u043A\u043E\u043C\u0431\u043E\u0443\u0441\u0438\u043B\u0438\u0442\u0435\u043B\u044C)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        type: "number",
+        name: "base",
+        value: this.state.base,
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-line"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161
-        }
-      }, "\u0414\u0440\u0443\u0433\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0414\u0440\u0443\u0433\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "additional",
         value: this.state.additional,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166
-        }
-      }, "\u0421\u0438\u043D\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0442\u0440\u0435\u043A"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0421\u0438\u043D\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0442\u0440\u0435\u043A"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "synth",
         value: this.state.synth,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168
-        }
-      }, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 170
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        }
-      }, "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C \u0432\u043E\u043A\u0430\u043B\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, "\u041A\u043E\u043B-\u0432\u043E \u0442\u0440\u0435\u043A\u043E\u0432")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C \u0432\u043E\u043A\u0430\u043B\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "reVocal",
         value: this.state.reVocal,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 172
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 173
-        }
-      }, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 175
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        }
-      }, "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u041F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "number",
         name: "reInstrument",
         value: this.state.reInstrument,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 177
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 179
-        }
-      }, " "))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 184
-        }
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, " "))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-line"
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 187
-        }
-      }, "\u0410\u0440\u0430\u043D\u0436\u0438\u0440\u043E\u0432\u043A\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 188
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0410\u0440\u0430\u043D\u0436\u0438\u0440\u043E\u0432\u043A\u0430"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "Checkbox",
         name: "arrange",
         value: this.state.arrange,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 189
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 190
-        }
-      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 193
-        }
-      }, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 197
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 198
-        }
-      }, "\u0421\u0440\u043E\u0447\u043D\u044B\u0439 \u0437\u0430\u043A\u0430\u0437"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", null)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, " ")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-calc"
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, "\u0421\u0440\u043E\u0447\u043D\u044B\u0439 \u0437\u0430\u043A\u0430\u0437"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
         type: "Checkbox",
         name: "urgent",
         value: this.state.urgent,
-        onChange: this.handleChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 200
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 201
-        }
-      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 204
-        }
-      }, " "))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 244
-        }
-      }, "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-line",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 247
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-calc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 248
-        }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("label", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 249
-        }
-      }, " "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "price",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 250
-        }
-      }, this.state.price, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 250
-        }
-      }, "\u20B4")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 251
-        }
-      }, " ")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-        className: "zv-copyright",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 255
-        }
-      }, "\u0421\u0442\u0443\u0434\u0438\u044F ZVUK\u2122 \u2014 \u0438 \u0432\u0440\u0435\u043C\u044F \u043D\u0435 \u0432 \u0441\u0447\u0435\u0442.")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_tooltip___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 261
-        }
-      }));
+        onChange: this.handleChange
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", null)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", null, " ")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+        className: "zv-copyright"
+      }, "\u0421\u0442\u0443\u0434\u0438\u044F ZVUK\u2122 \u2014 \u0438 \u0432\u0440\u0435\u043C\u044F \u043D\u0435 \u0432 \u0441\u0447\u0435\u0442.")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_tooltip___default.a, null));
     }
   }]);
 
@@ -733,49 +364,28 @@ function (_React$Component) {
 
 
 /***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
-/***/ }),
-
-/***/ "@babel/runtime/regenerator":
+/* 7 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
+/* 8 */
+/***/ (function(module, exports) {
 
-/***/ "next/head":
+module.exports = require("react-tooltip");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
 
 /***/ }),
-
-/***/ "next/link":
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
 
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-tooltip":
-/***/ (function(module, exports) {
-
-module.exports = require("react-tooltip");
-
 /***/ })
-
-/******/ });
-//# sourceMappingURL=index.js.map
+/******/ ]);
